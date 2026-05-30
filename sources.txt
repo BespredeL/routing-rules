@@ -3,4 +3,3 @@ Claude
 GitHub
 Telegram
 Google
-Microsoft

@@ -1,0 +1,8 @@
+OpenAI
+Claude
+GitHub
+Telegram
+Discord
+Google
+Microsoft
+Cloudflare

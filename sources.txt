@@ -5,4 +5,3 @@ Telegram
 Discord
 Google
 Microsoft
-Cloudflare

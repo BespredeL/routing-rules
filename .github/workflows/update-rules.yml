@@ -1,0 +1,71 @@
+name: Update Rules
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate rules.txt
+        run: |
+          set -e
+
+          TMP_FILE=$(mktemp)
+
+          while IFS= read -r service || [ -n "$service" ]; do
+            service=$(echo "$service" | xargs)
+
+            [ -z "$service" ] && continue
+            [[ "$service" =~ ^# ]] && continue
+
+            url="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/${service}/${service}.list"
+
+            echo "Downloading ${service}"
+
+            curl -fsSL "$url" >> "$TMP_FILE" || echo "Failed: ${service}"
+            echo "" >> "$TMP_FILE"
+
+          done < sources.txt
+
+          awk -F',' '
+            $1=="DOMAIN" ||
+            $1=="DOMAIN-SUFFIX" ||
+            #$1=="DOMAIN-KEYWORD" ||
+            $1=="IP-CIDR" ||
+            $1=="IP-CIDR6" {
+              print $2
+            }
+          ' "$TMP_FILE" |
+          sed 's/^[[:space:]]*//;s/[[:space:]]*$//' |
+          grep -v '^$' |
+          sort -u > rules.txt
+
+          rm -f "$TMP_FILE"
+
+          echo "Generated $(wc -l < rules.txt) entries"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add rules.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Update rules.txt"
+          git push

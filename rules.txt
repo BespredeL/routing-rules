@@ -36,7 +36,11 @@ adwords-community.com
 adwords.com
 adwordsexpress.com
 ai.com
+ai.google.dev
+airhorn.solutions
+airhornbot.com
 algolia.net
+alkalimakersuite-pa.clients6.google.com
 amp.dev
 ampproject.com
 ampproject.net
@@ -51,6 +55,7 @@ api.imem.app
 api.statsig.com
 api.swiftgram.app
 apigee.com
+apis.google.com
 app-analytics-services.com
 app-measurement-cn.com
 app-measurement.com
@@ -68,6 +73,7 @@ auth0.com
 autodraw.com
 avail.googleflights.net
 bandpage.com
+bard.google.com
 baselinestudy.com
 baselinestudy.org
 bazel.build
@@ -76,6 +82,7 @@ beacons.gvt2.com
 beacons2.gvt2.com
 beacons3.gvt2.com
 beatthatquote.com
+bigbeans.solutions
 blink.org
 blog.google
 blogblog.com
@@ -167,6 +174,7 @@ campuslondon.com
 capitalg.com
 cdn-telegram.org
 cdn.usefathom.com
+cdninstagram.com
 certificate-transparency.dev
 certificate-transparency.org
 charlestonroadregistry.com
@@ -219,6 +227,7 @@ dataliberation.org
 debug.com
 debugproject.com
 deepmind.com
+deepmind.google
 deja.com
 dependabot.com
 deps.dev
@@ -228,6 +237,30 @@ dialogflow.com
 digisfera.com
 digitalassetlinks.org
 digitalattackmap.com
+dis.gd
+discord-activities.com
+discord-attachments-uploads-prd.storage.googleapis.com
+discord.co
+discord.com
+discord.design
+discord.dev
+discord.gg
+discord.gift
+discord.gifts
+discord.media
+discord.new
+discord.store
+discord.tools
+discordactivities.com
+discordapp.com
+discordapp.io
+discordapp.net
+discordapp.page.link
+discordcdn.com
+discordmerch.com
+discordpartygames.com
+discordsays.com
+discordstatus.com
 doubleclick-cn.net
 doubleclick.com
 doubleclick.net
@@ -254,6 +287,8 @@ g.page
 gateway.dev
 gcp.gvt2.com
 gcr.io
+gemini.google.com
+generativeai.google
 gerritcodereview.com
 get.app
 get.dev
@@ -574,6 +609,7 @@ gvt6.com
 gvt7.com
 gvt9.com
 gwtproject.org
+hammerandchisel.ssl.zendesk.com
 hdrplusdata.org
 hey.gle
 hindiweb.com
@@ -586,6 +622,8 @@ iamremarkable.org
 identrust.com
 igoogle.com
 impermium.com
+instagr.am
+instagram.com
 intercom.io
 intercomcdn.com
 itasoftware.com
@@ -602,6 +640,7 @@ launchdarkly.com
 legra.ph
 like.com
 madewithcode.com
+makersuite.google.com
 material.io
 mbrx.app
 mdialog.com
@@ -659,6 +698,7 @@ polymer-project.org
 polymerproject.org
 postini.com
 privacysandbox.com
+proactivebackend-pa.googleapis.com
 prod-controlbe.floonet.goog
 prod-databe.floonet.goog
 prod.databe.floonet.goog
@@ -755,6 +795,7 @@ verilystudywatch.com
 verilystudywatch.org
 voice.telephony.goog
 wallet.com
+watchanimeattheoffice.com
 waveprotocol.org
 waymo.com
 waze.com

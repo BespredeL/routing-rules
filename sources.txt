@@ -1,5 +1,14 @@
+# General
+GitHub
+Google
+
+# AI
 OpenAI
 Claude
-GitHub
+Gemini
+
+# Social
 Telegram
-Google
+Discord
+# Facebook
+Instagram

@@ -1,14 +1,55 @@
-# General
-GitHub
-Google
+# 🌏 Global
+#Cloudflare
+Synology
+QuickConnect
 
-# AI
+# 🖥️ Developer
+Jetbrains
+
+# 📟 Google
+#Google
+#GoogleDrive
+#YouTubeMusic
+#GoogleSearch
+#GoogleVoice
+#Chromecast
+
+#🗄️Microsoft
+GitHub
+#OneDrive
+Microsoft
+#Teams
+#MicrosoftEdge
+Copilot
+
+# 🤖 AI
 OpenAI
 Claude
+#BardAI
 Gemini
 
-# Social
+# 😊 Social
 Telegram
+#Whatsapp
 Discord
+#Twitch
 # Facebook
 Instagram
+
+# 📺 Media
+YouTube
+#YouTubeMusic
+#Netflix
+#Spotify
+
+# 🎮 Game
+#Steam
+#Rockstar
+#PlayStation
+#Epic
+#Supercell
+#EA
+#Xbox
+#Sony
+#Origin
+#Roblox

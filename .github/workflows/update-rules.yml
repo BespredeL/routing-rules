@@ -30,13 +30,13 @@ jobs:
           TMP_FILE=$(mktemp)
 
           while IFS= read -r service || [ -n "$service" ]; do
-            # Удаляем комментарии после названия сервиса
+            # We delete comments after the service name
             service="${service%%#*}"
 
-            # Удаляем CR от Windows и пробелы
+            # Removing Windows CR and spaces
             service=$(echo "$service" | tr -d '\r' | xargs)
 
-            # Пропускаем пустые строки
+            # Skip empty lines
             [ -z "$service" ] && continue
 
             url="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/${service}/${service}.list"
